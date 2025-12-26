@@ -4,7 +4,6 @@ Project Category: Advanced
 
 ![spotify_logo](https://github.com/user-attachments/assets/bee6ca30-5c62-4cef-883f-c7d086244555)
 
-
 ## Overview
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
 
@@ -48,7 +47,7 @@ Before diving into SQL, it’s important to understand the dataset thoroughly. T
 - `Album_type`: The type of album (e.g., single or album).
 - Various metrics such as `danceability`, `energy`, `loudness`, `tempo`, and more.
 
-### 4. Querying the Data
+### 2. Querying the Data
 After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into **easy**, **medium**, and **advanced** levels to help progressively develop SQL proficiency.
 
 #### Easy Queries
@@ -60,14 +59,14 @@ After the data is inserted, various SQL queries can be written to explore and an
 #### Advanced Queries
 - Nested subqueries, window functions, CTEs, and performance optimization.
 
-### 5. Query Optimization
+### 3. Query Optimisation
 In advanced stages, the focus shifts to improving query performance. Some optimization strategies include:
 - **Indexing**: Adding indexes on frequently queried columns.
 - **Query Execution Plan**: Using `EXPLAIN ANALYZE` to review and refine query performance.
   
 ---
 
-## 15 Practice Questions
+## Practice Questions
 
 ### Easy Level
 1. Retrieve the names of all tracks that have more than 1 billion streams.
